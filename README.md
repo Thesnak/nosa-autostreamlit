@@ -6,7 +6,7 @@ Nosa-autoStreamlit is an advanced Python framework that automates the creation o
 
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.10.0+-green.svg)
-![License](https://img.shields.io/github/license/yourusername/nosa-autostreamlit)
+![License](https://img.shields.io/github/license/thesnak/nosa-autostreamlit)
 
 ## ✨ Features
 
@@ -25,7 +25,19 @@ Nosa-autoStreamlit is an advanced Python framework that automates the creation o
 
 ## 🚀 Quick Start
 
-### Installation
+## Installation
+
+### Install via pip
+
+```bash
+pip install nosa-autostreamlit
+```
+### Install from GitHub
+```bash
+pip install git+https://github.com/thesnak/nosa-autostreamlit.git
+```
+
+### Local Installation
 
 ```bash
 # Clone the repository
@@ -39,6 +51,11 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 # Install dependencies
 pip install -r requirements.txt
 ```
+
+### 🔗 Links
+- PyPI Package: https://pypi.org/project/nosa-autostreamlit/
+- GitHub Repository: https://github.com/thesnak/nosa-autostreamlit
+
 
 ### Machine Learning Example
 
