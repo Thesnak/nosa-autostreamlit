@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/thesnak/nosa-autostreamlit/main/assets/nosa_autostreamlit_logo.webp" alt="Nosa-autoStreamlit Logo" width="200"/>
+</p>
+
 # Nosa-autoStreamlit 🚀
 
 ## 📊 Automated Machine Learning and Data Visualization Framework
