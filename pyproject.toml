@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nosa-autostreamlit"
+version = "0.1.0"
+description = "Automated Machine Learning and Data Visualization Framework"
+readme = "README.md"
+authors = [{name = "Mohamed Mahmoud", email = "mohamed.mahmoud0726@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10"
+]
+keywords = ["machine-learning", "data-visualization", "streamlit"]
+requires-python = ">=3.8"
+dependencies = [
+    "streamlit>=1.10.0",
+    "pandas>=1.3.0",
+    "numpy>=1.21.0",
+    "scikit-learn>=1.0.0",
+    "plotly>=5.0.0",
+    "joblib>=1.1.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "flake8"]
+
+[project.urls]
+Homepage = "https://github.com/thesnak/nosa-autostreamlit"
+Repository = "https://github.com/thesnak/nosa-autostreamlit"
+
+[tool.setuptools]
+packages = ["nosa_autostreamlit"]
