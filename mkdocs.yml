@@ -1,0 +1,34 @@
+site_name: Nosa-autoStreamlit Documentation
+site_description: Automated Machine Learning and Data Visualization Framework
+site_author: Mohamed Mahmoud
+site_url: https://thesnak.github.io/nosa-autostreamlit/
+
+theme:
+  name: material
+  logo: assets/nosa_autostreamlit_logo.webp
+  favicon: assets/nosa_autostreamlit_logo.webp
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Getting Started: getting_started.md
+  - Generators:
+    - Machine Learning: ml_generator.md
+    - Data Visualization: viz_generator.md
+  - API Reference: api_reference.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - codehilite
+
+plugins:
+  - search

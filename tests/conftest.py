@@ -7,3 +7,5 @@ def pytest_configure(config):
     """
     # You can add global configurations here if needed
     pass
+
+

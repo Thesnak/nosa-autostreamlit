@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nosa-autostreamlit"
-version = "0.1.0"
+version = "0.1.2"
 description = "Automated Machine Learning and Data Visualization Framework"
 readme = "README.md"
 authors = [{name = "Mohamed Mahmoud", email = "mohamed.mahmoud0726@gmail.com"}]
